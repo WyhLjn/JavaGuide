@@ -1,3 +1,5 @@
+点击关注[公众号](#公众号)及时获取笔主最新更新文章，并可免费领取本文档配套的《Java面试突击》以及Java工程师必备学习资源。
+
 <!-- MarkdownTOC -->
 
 - [Servlet总结](#servlet总结)
@@ -57,7 +59,7 @@ Servlet接口定义了5个方法，其中**前三个方法与Servlet生命周期
 
 - `void init(ServletConfig config) throws ServletException`
 - `void service(ServletRequest req, ServletResponse resp) throws ServletException, java.io.IOException`
-- `void destory()`
+- `void destroy()`
 - `java.lang.String getServletInfo()`
 - `ServletConfig getServletConfig()`
 
